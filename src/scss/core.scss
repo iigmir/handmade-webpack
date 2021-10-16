@@ -1,0 +1,31 @@
+#app {
+    .article {
+        &.top {
+            .link {
+                max-width: 180px;
+                padding: 0 2rem 0 2rem;
+                float: left;
+                img {
+                    max-width: 100%;
+                }
+            }
+        }
+    }
+    .container {
+        max-width: 1024px;
+        &.central {
+            margin: 0 auto;
+        }
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        color: #ccc;
+        background: #222;
+    }
+    a {
+        color: rgb(114, 188, 255);
+    }
+}
+
